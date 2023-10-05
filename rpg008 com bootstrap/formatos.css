@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+/*Navegation Bar*/
+header ul {
+    background-color: #343A40;
+}
+
+/*estilizando os links*/
+header a{
+    color: rgba(255, 255, 255, 0.384);
+}
+
+/*este serve para destacar qual página a pessoa está no momento*/
+.atual{
+    color: white;
+}
+
+/*Área principal*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E9967A;
+
+    overflow-y: auto;
+
+    height: calc(100vh - 100px);
+}
+
+.home h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.home p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.home img {
+    width: 50px;
+}
+
+/*rodapé*/
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+
+    color: white;
+    height: 25px;
+}
